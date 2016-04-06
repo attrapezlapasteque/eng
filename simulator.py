@@ -6,7 +6,7 @@ import pandas as ps
 #For now : basically random number between 0 and 1
 def modele(var_team1,var_team2):
 	#~ print('Team 1: ', var_team1['Minutes played'].sum(),"(Minutes played: ",var_team1['Minutes played'].iloc[0],")\nTeam 2: ",var_team2['Name'].iloc[0],"(Minutes played: ",var_team2['Minutes played'].iloc[0],')\n\n')
-	return("L'equipe 1 a " + str(round(var_team1['Minutes played'].sum()*100/(var_team1['Minutes played'].sum()+var_team2['Minutes played'].sum()))) + " % de chance de gagner contre l'equipe 2 !")
+	return("Team 1 has " + str(round(var_team1['Minutes played'].sum()*100/(var_team1['Minutes played'].sum()+var_team2['Minutes played'].sum()))) + " % chances of winning against team 2 !")
 	#~ return('Team 1 has ' + str(round(np.random.uniform()*100)) + ' % chance of winning against team 2 !')
 	
 	
