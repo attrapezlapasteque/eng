@@ -202,7 +202,7 @@ $(player_pos).each(function( index,value_node ) {
 	$('#form_teams').submit(function () {
 		
 
-	document.getElementById("demo").innerHTML = "Un instant s'il-vous-plait...";
+	document.getElementById("demo").innerHTML = "I am thinking...";
 	$.ajax({
     url: "form_proc.php",
     type: 'POST',
@@ -250,7 +250,7 @@ echo "</pre><script>window.scrollTo(0,99999);</script>";
 	$(document).click(function(){
         	$('#demo').hide(1000);
 		$('#results_screen').hide(1000);
-		document.getElementById("demo").innerHTML = "A la prochaine !";
+		document.getElementById("demo").innerHTML = "See You !";
 
     	});
 
